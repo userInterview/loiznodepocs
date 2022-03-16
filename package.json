@@ -2,15 +2,20 @@
   "name": "observablestudy",
   "version": "1.0.0",
   "description": "etude observable rxjs et promesses en javascript",
-  "main": "LoizObs.mjs",
+  "main": "LoizObs.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "loizes6": "node --es-module-specifier-resolution=node LoizObs.js"
   },
   "author": "Loiz",
   "license": "ISC",
   "devDependencies": {
-    "esm": "^3.2.25",
-    "node-fetch": "^2.0.0",
-    "rxjs": "^5.4.0"
+    "esm": "3.2.25",
+    "node-fetch": "2.6.7",
+    "rxjs": "5.4.0"
+  },
+  "dependencies": {
+    "eslint": "5.2.0"
   }
 }
