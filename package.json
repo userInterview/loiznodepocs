@@ -4,8 +4,9 @@
   "description": "etude observable rxjs et promesses en javascript",
   "main": "LoizObs.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "scripts": {    
+    "loizRunExpEs6": "node --experimental-modules LoizObs.js",
+    "loizRunExpEs6Test": "node --experimental-modules test.js",
     "loizRunEs6": "node --es-module-specifier-resolution=node LoizObs.js",
     "loizRunTestEs6": "node --es-module-specifier-resolution=node test.js"
   },
