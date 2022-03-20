@@ -6,9 +6,8 @@ console.log("Début");
 //import Observable from "rxjs";
 //const { rxjs } = Observable;
 //const Observable = require('rxjs') ;
-const rxjs = require('rxjs/Rx');
 
-//import fetch from 'node-fetch';
+const rxjs = require('rxjs/Rx');
 const fetch = require('node-fetch');
 
 var fullTimeSync = function () {
@@ -22,7 +21,7 @@ var fullTimeSync = function () {
 //pas exécuté si pas de souscription
 const objObservable = new rxjs.Observable(observer => {
        //console.log('<fetchObs()> - 1. Dans le corps de l\'observable');
-       fetch("http://desktop-bd63elf:89/LoizDatasBounchons/restDatas/CVE-2021-3114.json", { method: "GET" })
+       fetch("http://192.168.11.225:89/LoizDatasBounchons/restDatas/CVE-2021-3114.json", { method: "GET" })
               .then(
                      function (res, rej) {
                             return (
