@@ -1,5 +1,5 @@
 console.log("***************** Ligne 1 ******************** - " +fullTimeSync()) ; 
-import rxjs from 'rxjs/Rx' ;
+import rxjs from 'rxjs' ;
 import fetch from 'node-fetch';
 
 function fullTimeSync () {
