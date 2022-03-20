@@ -1,33 +1,7 @@
-console.log("Début");
+console.log("Début") ; 
 
-import path from 'path';
-global.__dirname = path.resolve('./');
-console.log(__dirname);
-
-import rxjs from 'rxjs/Rx' ;
-import fetch from 'node-fetch';
-
-
-try {
-       var k = new Map();
-       console.log("ES6 supported!!")
-} catch (err) {
-       console.log("ES6 not supported :(")
-}
-
-try {
-       var k = new HashMap();
-       console.log("ES100 supported!!")
-} catch (err) {
-       console.log("ES100 not supported :(")
-}
-
-
-/*import { rxjs } from  'rxjs';
-import {fetch} from 'node-fetch';*/
-
-/*const rxjs = require('rxjs/Rx');
-const fetch = require('node-fetch');*/
+import rxjs from 'rxjs/Rx' ; 
+import fetch from 'node-fetch' ; 
 
 //process.exit() ;
 
