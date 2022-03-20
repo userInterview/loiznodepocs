@@ -3,7 +3,7 @@
 //import {  Observable } from 'rxjs/Observable';
 //import rxjs from 'rxjs' ;
 console.log("Début");
-import rxjs from 'rxjs/Rx' ;
+import rxjs from 'rxjs' ;
 import fetch from 'node-fetch';
 console.log(process.versions);
 
@@ -42,7 +42,7 @@ var fullTimeSync = function () {
 //pas exécuté si pas de souscription
 const objObservable = new rxjs.Observable(observer => {
        //console.log('<fetchObs()> - 1. Dans le corps de l\'observable');
-       fetch("http://desktop-bd63elf:89/LoizDatasBounchons/restDatas/CVE-2021-3114.json", { method: "GET" })
+       fetch("http://192.168.11.225:89/LoizDatasBounchons/restDatas/CVE-2021-3114.json", { method: "GET" })
               .then(
                      function (res, rej) {
                             return (
