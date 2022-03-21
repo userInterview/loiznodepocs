@@ -1,0 +1,17 @@
+
+avec node 12.14.1 (version de 2019)
+*******  Importation des module façon commonjs (non asynchrone):
+
+                    const rxjs = require('rxjs/Rx');
+                    const fetch = require('node-fetch');
+
+*******  Commande d'exécution d'un fichier js (LoizObs.js):
+
+                    node LoizObs.js
+
+*******  packages node dépendants :
+  
+  
+                    node-fetch  : ^2.0.0
+                    rxjs :        ^5.4.0
+  

@@ -1,8 +1,7 @@
 {
   "name": "observablestudy",
   "version": "1.0.0",
-  "description": "etude observable rxjs et promesses en javascript",
-  "main": "LoizObs.js",
+  "description": "etude observable rxjs et promesses en javascript",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
